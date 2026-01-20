@@ -24,9 +24,9 @@ This project focuses on implementing the **core game logic**, including board ge
 ---
 
 ## 📂 Project Structure
-
+```
 Minesweeper/
-```├── pycache/          # Python bytecode cache (auto-generated)
+├── pycache/          # Python bytecode cache (auto-generated)
 ├── .venv/                # Virtual environment (not required to run)
 ├── assets/
 │   ├── flag.png          # Flag image
@@ -41,11 +41,21 @@ Minesweeper/
 
 ## 🚀 Getting Started
 
-### Prerequisites
+### 🧠 Code Overview
+- cell.py
+  (Defines the properties and behavior of individual cells, Tracks mine state, reveal state, and adjacent mine count)
+- ms_board.py
+  (Handles board creation, Places mines randomly, Calculates adjacent mine values)
+- game.py
+  (Controls game flow and win/loss logic, Manages player actions and game state)
+- minesweeper.py
+  (Program entry point, Initializes and runs the game)
+
+#### Prerequisites
 
 - Python 3.8 or higher installed on your machine
 
-### Running the Game
+#### Running the Game
 Clone the repository and run the game:
 
 ```bash
@@ -54,18 +64,18 @@ cd Minesweeper
 python minesweeper.py
 ```
 
-### 📌 Possible Improvements
-	•	Cell flagging support
-	•	Difficulty selection (easy / medium / hard)
-	•	Input validation and error handling
-	•	Graphical user interface (GUI)
-	•	Timer and score tracking
-	•	Save/load game state
+## 📌 Possible Improvements
+- Cell flagging support
+- Difficulty selection (easy / medium / hard)
+- Input validation and error handling
+- Graphical user interface (GUI)
+- Timer and score tracking
+- Save/load game state
 
 
-### 📄 License
+## 📄 License
 This project is intended for educational and personal use.
 
-### ✨ Author
+## ✨ Author
 
 Created by KIMI-EHU25
