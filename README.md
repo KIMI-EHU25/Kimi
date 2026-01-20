@@ -46,10 +46,26 @@ Minesweeper/
 - Python 3.8 or higher installed on your machine
 
 ### Running the Game
-
 Clone the repository and run the game:
 
 ```bash
 git clone https://github.com/newwereper/Minesweeper.git
 cd Minesweeper
 python minesweeper.py
+```
+
+### 📌 Possible Improvements
+	•	Cell flagging support
+	•	Difficulty selection (easy / medium / hard)
+	•	Input validation and error handling
+	•	Graphical user interface (GUI)
+	•	Timer and score tracking
+	•	Save/load game state
+
+
+### 📄 License
+This project is intended for educational and personal use.
+
+### ✨ Author
+
+Created by KIMI-EHU25
